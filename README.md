@@ -1,3 +1,10 @@
 # http://postolenko.github.io/lancecafe/vacansies.html
 # http://postolenko.github.io/lancecafe/contacts.html
 # http://postolenko.github.io/lancecafe/news.html
+# http://postolenko.github.io/lancecafe/arbitraj.html
+# http://postolenko.github.io/lancecafe/safe.html
+# http://postolenko.github.io/lancecafe/configuration.html
+# http://postolenko.github.io/lancecafe/deals.html
+# http://postolenko.github.io/lancecafe/settings.html
+# http://postolenko.github.io/lancecafe/new_project.html
+# http://postolenko.github.io/lancecafe/price_list.html
