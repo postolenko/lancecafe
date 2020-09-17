@@ -8,3 +8,8 @@
 # http://postolenko.github.io/lancecafe/settings.html
 # http://postolenko.github.io/lancecafe/new_project.html
 # http://postolenko.github.io/lancecafe/price_list.html
+# http://postolenko.github.io/lancecafe/project.html
+# http://postolenko.github.io/lancecafe/account_site.html
+# http://postolenko.github.io/lancecafe/notifications.html
+# http://postolenko.github.io/lancecafe/delete_accaunt.html
+# http://postolenko.github.io/lancecafe/services.html
