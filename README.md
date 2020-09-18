@@ -13,3 +13,6 @@
 # http://postolenko.github.io/lancecafe/notifications.html
 # http://postolenko.github.io/lancecafe/delete_accaunt.html
 # http://postolenko.github.io/lancecafe/services.html
+# http://postolenko.github.io/lancecafe/finance.html
+# http://postolenko.github.io/lancecafe/forum.html
+# http://postolenko.github.io/lancecafe/forum_2.html
