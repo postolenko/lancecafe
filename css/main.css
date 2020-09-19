@@ -685,6 +685,12 @@ header {
   min-height: 340px;
   padding-right: 10px;
 }
+.price-list-item.pr_2 .price-list-blo-txt {
+  min-height: 300px;
+}
+.price-list-blo .grey_link_wrapp {
+  padding: 10px 0 10px 0; 
+}
 .price-list-blo-link a {
   width: 188px;
   height: 38px;
@@ -2159,6 +2165,22 @@ footer {
   padding: 20px;
 }
 
+.yellow_text {
+  padding: 5px 0;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #fcc836;
+}
+
+.checked {
+  display: inline-block;
+  vertical-align: top;
+  width: 15px;
+  height: 15px;
+  background: url(../images/checked.svg) no-repeat;
+  background-size: contain;
+}
+
 .p_big {
   font-size: 18px;
   line-height: 20px;
@@ -3044,6 +3066,18 @@ footer {
 .add_money_descript p {
   font-size: 12px;
   line-height: 16px;
+}
+
+.add_money_descript p a {
+  border-bottom: 1px solid transparent;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: normal;
+  color: #000;
+}
+
+.add_money_descript p a:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
 }
 
 .add_money_descript p.p_big {
