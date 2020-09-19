@@ -176,4 +176,8 @@ $(document).ready(function() {
       console.log(maxVal +"   "+ currentVal);
     });
 
+    $(".switchBtn").on("click", function() {
+      
+    });
+
 });

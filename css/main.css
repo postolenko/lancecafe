@@ -2098,28 +2098,28 @@ footer {
   text-align: right;
 }
 
-.user_thumb {
+.user_thumb_big {
   display: flex;
   display: -webkit-flex;
   align-items: center;
   -webkit-align-items: center;
 }
 
-.user_thumb > div:nth-child(1) {
+.user_thumb_big > div:nth-child(1) {
   width: 130px;
 }
 
-.user_thumb > div:nth-child(2) {
+.user_thumb_big > div:nth-child(2) {
 
 }
 
-.user_img {
+.user_thumb_big .user_img {
   width: 110px;
   height: 110px;
   position: relative;
 }
 
-.user_img img {
+.user_thumb_big .user_img img {
   display: block;
   width: auto;
   height: auto;
@@ -2132,7 +2132,7 @@ footer {
   -webkit-transform: translate(-50%, -50%);
 }
 
-.user_thumb h3 {
+.user_thumb_big .user_thumb h3 {
   font-family: "Roboto";
   font-size: 24px;
   color: rgb(42, 39, 60);
@@ -2625,17 +2625,40 @@ footer {
   display: -webkit-flex;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
-  justify-content: space-between;
-  -webkit-justify-content: space-between;
   margin-bottom: 14px;
 }
 
 .ch_thumb {
   cursor: pointer;
   position: relative;
-  margin: 10px 0;
-  padding: 0 17px 0 30px;
+  padding: 0 17px 0 31px;
+  margin: 7px 0;
+}
+
+.ch_thumb label:before {
+  content: "";
+  display: block;
   cursor: pointer;
+  position: absolute;
+  top: 18px;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #dadee9;
+  background-color: #ffffff;
+}
+
+.ch_thumb input[type="radio"]:checked + label:after {
+  display: block;
+  cursor: pointer;
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 18px;
+  left: 0;
+  background: url(../images/checked.svg) no-repeat;
+  background-size: cover;
 }
 
 .ch_thumb input {
@@ -2643,22 +2666,6 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-}
-
-.ch_thumb span {
-    display: block;
-    position: absolute;
-    top: 18px;
-    left: 0;
-    width: 15px;
-    height: 15px;
-    border: 1px solid #dadee9;
-    background-color: #ffffff;
-}
-
-.ch_thumb input[type="radio"]:checked + span {
-    background: url(../images/checked.svg) no-repeat;
-    background-size: cover;
 }
 
 .ch_thumb .icon_box {
@@ -3384,7 +3391,14 @@ footer {
 }
 
 .soc_list_2 li .i_box {
-  width: 35px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.soc_list_2 li .i_box img {
+  display: block;
+  height: auto;
+  width: 100%;
 }
 
 .linkedin {
@@ -4035,6 +4049,12 @@ footer {
   -webkit-border-radius: 20px;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+}
+
+.red_pill.red_pill_sm {
+  padding: 10px 10px 11px 10px;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 /*-- /Section 1 - Project Page --*/
