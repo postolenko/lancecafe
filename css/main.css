@@ -2460,14 +2460,6 @@ footer {
     position: relative;
 }
 
-.add_news_controls {
-
-}
-
-.add_news_controls img {
-
-}
-
 .textwrapp {
   margin: 5px 0;
 }
@@ -2476,6 +2468,7 @@ footer {
   display: block;
   width: 100%;
   height: 125px;
+  resize: none;
   font-family: 'Gotham Pro';
   background-color: #eceef4;
   -webkit-border-radius: 5px;
@@ -2485,6 +2478,7 @@ footer {
   padding: 10px 20px 10px 20px;
   font-size: 14px;
   line-height: 19px;
+  outline: none;
 }
 
 .history_items_footer {
@@ -5095,9 +5089,196 @@ p.yellow_tab {
 }
 
 /*-- /Section - Forum 2 Page --*/
- 
- 
- 
- 
- 
 
+/*-- Section - Forum 3 Page --*/
+
+.table_7 .inner_cell {
+  max-width: 490px;
+}
+
+/*-- /Section - Forum 3 Page --*/
+
+/*-- Section 1 - Vacansie Page --*/
+
+.vacansie_templ {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+
+.vacansie_templ > .left {
+  width: calc(100% - 510px);
+  padding: 5px 5px 5px 0;
+}
+
+.vacansie_templ > .right {
+  width: 510px;
+  padding: 5px 0 5px 5px;
+}
+
+.vacansie_templ .inner_col {
+  height: 100%;
+  padding: 0 40px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1);
+}
+
+.vacansie_templ > .right .inner_col {
+  padding: 0 35px;
+}
+
+.vacansie_header {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  padding: 13px 0;
+}
+
+.vacansie_header > div:nth-child(1) {
+  width: calc(100% - 160px);
+  padding-top: 41px;
+}
+
+.vacansie_header > div:nth-child(2) {
+  width: 160px;
+}
+
+.vacansie_header h2 {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #2a273c;
+}
+
+.vacansie_header .vacansie_tags {
+  padding: 12px 0 12px 0;
+}
+
+.vacansie_descript {
+  padding-bottom: 19px;
+}
+
+.vacansie_descript p {
+  padding-bottom: 19px;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.vacansie_form_title {
+  padding: 30px 0 5px 0;
+  text-align: center;
+}
+
+.vacansie_form_title h2 {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+.vacansie_form_title_descript {
+  padding: 5px 0;
+  text-align: center;
+}
+
+.vacansie_form_title_descript p {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.vacansie_form_two_cols {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  margin-top: 13px;
+}
+
+.vacansie_form_two_cols > div:nth-child(1) {
+  width: 50%;
+  padding-right: 2px;
+}
+
+.vacansie_form_two_cols > div:nth-child(2) {
+  width: 50%;
+  padding-left: 2px;
+}
+
+.vacansie_form_two_cols .input_wrapp {
+  margin: 4px 0;
+}
+
+.vacansie_form_two_cols .input_wrapp input {
+  font-family: 'Gotham Pro';
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.vacansie_form_two_cols .input_wrapp input::placeholder {
+  font-family: 'Gotham Pro';
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.vacansie_form_two_cols .dropdown_box_title_2 p {
+  font-family: 'Gotham Pro';
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.vacansie_form_two_cols .upload_file_wrapp {
+  padding: 6px 0;
+}
+
+.textarea_wrapp_2 {
+
+}
+
+.textarea_wrapp_2 textarea {
+  display: block;
+  width: 100%;
+  height: 90px;
+  resize: none;
+  margin: 5px 0;
+  padding: 0 10px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1);
+  font-size: 14px;
+  line-height: 20px;
+  outline: none;
+}
+
+.textarea_descript {
+  padding: 6px 0;
+}
+
+.textarea_descript p {
+  font-size: 14px;
+  line-height: 1.2;
+  color: #2a273c;
+}
+
+.submit_wrapp_7 {
+  padding: 50px 0 12px 0;
+  text-align: center;
+}
+
+.conf_text {
+  padding: 6px 0;
+}
+
+.conf_text p {
+  font-size: 14px;
+  line-height: 1.2;
+  color: #2a273c;
+}
+
+/*-- /Section 1 - Vacansie Page --*/

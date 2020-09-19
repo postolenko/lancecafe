@@ -16,3 +16,6 @@
 # http://postolenko.github.io/lancecafe/finance.html
 # http://postolenko.github.io/lancecafe/forum.html
 # http://postolenko.github.io/lancecafe/forum_2.html
+# http://postolenko.github.io/lancecafe/forum_3.html
+# http://postolenko.github.io/lancecafe/vacansie.html
+
