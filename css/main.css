@@ -1918,7 +1918,7 @@ footer {
   background-color: rgb(252, 200, 54);
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .25);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .25);
-  height: 16px;
+  min-height: 16px;
   margin: 2px 0;
   padding: 1px 10px 0 10px;
   -webkit-border-radius: 9px;
@@ -2001,6 +2001,9 @@ footer {
 
 .contacts_templ .right img {
   display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
 }
 
 .contacts_templ p {
@@ -2113,6 +2116,7 @@ footer {
 
 .user_thumb_big > div:nth-child(1) {
   width: 130px;
+  padding-right: 10px;
 }
 
 .user_thumb_big > div:nth-child(2) {
@@ -2847,7 +2851,12 @@ footer {
   width: 22%;
 }
 
-.table_header h3 {
+.table .table_row .cell h3 {
+  display: none;
+}
+
+.table .table_header .cell h3 {
+  display: block;
   font-size: 24px;  
   line-height: 1.2;
   color: rgb(0, 0, 0);
@@ -2978,7 +2987,7 @@ footer {
 }
 
 .table_2 .table_row .cell:nth-child(2) {
-  width: calc(40% - 80px);
+  width: 40%;
 }
 
 .table_2 .table_row .cell:nth-child(3) {
@@ -5740,6 +5749,130 @@ p.yellow_tab {
 
 .inner_box_2 .form_submit {
   padding-bottom: 9px;
+}
+
+.modal_2 {
+  max-width: 450px;
+  padding: 43px 25px 37px 25px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
+}
+
+.modal_title_3 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.modal_title_3 h2 {
+  font-size: 30px;
+  color: rgb(252, 200, 54);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.modal_title_3 p {
+  font-size: 18px;
+  color: rgb(42, 39, 60);
+  line-height: 1.2;
+}
+
+.f_16 .dropdown_box_title_2 p {
+  font-size: 16px;
+}
+
+.payments_form {
+  text-align: center;
+}
+
+.payments_form .checkbox {
+  margin: 12px 0;
+}
+
+.payments_form .dropdown_box_wrapp_2 {
+  margin: 12px auto;
+}
+
+.total_price {
+  padding: 16px 0;
+  text-align: center;
+}
+
+.total_price p {
+  padding: 1px 0;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.total_price p.sb {
+  font-weight: 500;
+}
+
+.payments {
+
+}
+
+.payments_title {
+  padding: 17px 0;
+  text-align: center;
+}
+
+.payments_title h3 {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+.payments_thumbs {
+
+}
+
+.payments_thumbs img {
+  display: block;
+  margin: 17px auto;
+}
+
+/*-- Popup --*/
+
+body.fixed {
+    width: 100%;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.popup {
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.modal {
+  position: relative;
+}
+
+.modal .close_btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.popup_bg {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .8);
+    z-index: 19;
 }
 
 /*-- /Popup --*/

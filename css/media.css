@@ -934,3 +934,246 @@
   }
 }
 /*# sourceMappingURL=media.css.map */
+@media only screen and (max-width: 990px) {
+  /*-- Section 1 - Vacansies Page --*/
+  .vacansie_thumb {
+    width: calc(50% - 30px);
+  }
+  /*-- /Section 1 - Vacansies Page --*/
+  /*-- Safe --*/
+  .table_header h3 {
+      font-size: 17px;
+  }
+  /*-- /Safe --*/
+}
+
+@media only screen and (max-width: 767px) {
+  /*-- Section 1 - Contacts Page --*/
+  .contacts_templ {
+      padding: 30px 25px 30px 25px;
+  }
+  .contacts_templ .left {
+      width: calc(100% - 120px);
+  }
+  .contacts_templ .right {
+      width: 120px;
+  }
+  /*-- /Section 1 - Contacts Page --*/
+  /*-- Section 1 - Arbitrag Page --*/
+  .arb_project_header {
+      display: block;
+      padding-bottom: 10px;
+  }
+  .arb_project_header .col_1 {
+      width: 100%;
+  }
+  .arb_project_header .col_2 {
+      width: 100%;
+      padding-top: 0;
+      text-align: center;
+  }
+  .project_descript {
+      padding: 10px 0;
+  }
+  .project_descript p {
+      font-size: 16px;
+      line-height: 20px;
+  }
+  .files_list {
+    padding: 10px 0;
+  }
+  /*-- /Section 1 - Arbitrag Page --*/
+  /*-- Safe --*/
+  .title_wrapp h2 {
+      font-size: 24px;
+  }
+  .blue_title h2 {
+      font-size: 16px;
+  }
+  .blue_title_descript p {
+      font-size: 16px;
+  }
+  .white_box {
+      padding: 23px 20px 21px 20px;
+  }
+  .table_header h3 {
+      font-size: 14px !important;
+  }
+  .table .table_row .cell p {
+      font-size: 11px;
+  }
+  /*-- /Safe --*/
+  /*-- Section 1 - Configuration Page --*/
+  .table_2 .table_row {
+      padding: 0 15px;
+  }
+  /*-- /Section 1 - Configuration Page --*/
+}
+
+@media only screen and (max-width: 600px) {
+  /*-- Section 1 - Vacansies Page --*/
+  .vacansie_thumb {
+    width: 100%;
+  }
+  /*-- /Section 1 - Vacansies Page --*/
+  /*-- Section 1 - Arbitrag Page --*/
+  .add_news_footer {
+      display: block;
+  }
+  .add_news_footer > div:nth-child(1) {
+      width: 100%;
+  }
+  .add_news_footer > div:nth-child(2) {
+      width: 100%;
+      text-align: right;
+  }
+  /*-- /Section 1 - Arbitrag Page --*/
+}
+
+@media only screen and (max-width: 480px) {
+  .subpage-title h1 {
+      font-size: 25px;
+  }
+  .subpage-title_2 h4 {
+      font-size: 21px;
+      line-height: 23px;
+  }
+  /*-- Section 1 - Contacts Page --*/
+  .contacts_templ {
+    display: block;
+    padding: 30px 25px 30px 25px;
+  }
+  .contacts_templ .left {
+      float: none;
+      width: 100%;
+  }
+  .contacts_templ .right {
+      float: none;
+      width: 120px;
+      margin: 0 auto;
+  }
+  .contacts_templ p {
+      font-size: 14px;
+  }
+  /*-- /Section 1 - Contacts Page --*/
+  /*-- Section 1 - News Page --*/
+  .contacts_wrapp {
+      padding: 25px 15px 10px 15px;
+  }
+  .contacts_wrapp p {
+    padding: 9px 0;
+    font-size: 15px;
+  }
+  /*-- /Section 1 - News Page --*/
+  /*-- Section 1 - Arbitrag Page --*/
+  .red_link_wrapp {
+      margin-right: 0;
+  }
+  .dropdown_title:after {
+      top: 21px;
+  }
+  .dropdown_title h3 {
+      font-size: 19px;
+      line-height: 22px;
+  }
+  .arb_project {
+      padding: 10px 20px 10px 20px;
+  }
+  .history_items {
+      padding: 10px 20px 13px 20px;
+  }
+  .btns_list {
+      margin: 0 -2px;
+  }
+  .btns_list li {
+      padding: 2px;
+  }
+  .btn_sm {
+    font-size: 9px;
+  }
+  .file_link span {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .upload_file_wrapp {
+      padding: 5px 0;
+  }
+  /*-- /Section 1 - Arbitrag Page --*/
+  /*-- Safe --*/
+  .soc_ch_thumbs {
+    justify-content: center;
+    -webkit-justify-content: center;
+  }
+  .table .table_row .cell h3 {
+    display: block;
+    font-size: 14px;
+  }
+  .table .table_header {
+    display: none;
+  }
+  .table .table_row {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+  }
+  .table .table_row .cell {
+      padding: 7px 5px;
+  }
+  .table .table_row .cell:nth-child(1) {
+      width: 30px;
+  }
+  .table .table_row .cell:nth-child(2) {
+      width: calc(50% - 15px);
+  }
+  .table .table_row .cell:nth-child(3) {
+      width: calc(50% - 15px);
+      text-align: right;
+  }
+  .table .table_row .cell:nth-child(4) {
+      width: calc(50% - 15px);
+      margin-left: 30px;
+  }
+  .table .table_row .cell:nth-child(5) {
+      width: calc(50% - 15px);
+      text-align: right;
+  }
+  /*-- /Safe --*/
+  /*-- Section 1 - Configuration Page --*/
+
+  .table_2 .table_row .cell {
+    padding: 5px;
+  }
+
+  .table_2 .table_row .cell:nth-child(1) {
+      width: calc(70% - 55px);
+  }
+  .table_2 .table_row .cell:nth-child(2) {
+      width: 30%;
+  }
+  .table_2 .table_row .cell:nth-child(3) {
+      width: 55px;
+  }
+  .table_2 .table_header h3 {
+      font-size: 10px !important;
+      font-weight: 600;
+  }
+  .table_2 p {
+    font-size: 12px;
+  }
+  .submit_wrapp_2 {
+      padding-left: 0;
+      text-align: center;
+  }
+  /*-- /Section 1 - Configuration Page --*/
+}
+@media only screen and (max-width: 370px) {
+  /*-- Section 1 - Arbitrag Page --*/
+  .user_thumb_big p {
+    font-size: 11px;
+  }
+  /*-- /Section 1 - Arbitrag Page --*/
+  /*-- Safe --*/
+  .table .table_row .cell h3 {
+      font-size: 11px;
+  }
+  /*-- /Safe --*/
+}
