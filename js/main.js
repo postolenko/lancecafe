@@ -103,18 +103,30 @@ $(document).ready(function() {
 
     // -----
 
-    $(".table_3 .table_row").on("click", function(e) {
-        e.preventDefault();
-        // innerElem = $(this).find(".inner_link");
-        // if(!innerElem) {
-          parentBlock = $(this).closest(".table_row_wrapp");
-          dropDownBlock = parentBlock.find(".table_row_dropdown");
-          if(dropDownBlock.is(":hidden")) {
-            dropDownBlock.slideDown(300);
-          } else {
-            dropDownBlock.slideUp(300);
-          }
-        // }
+    $(".table_3 .table_row").on("click", function (event) {
+      const hasClass = $(event.target.closest("a")).hasClass("inner_link") 
+      if (!hasClass) {
+        event.preventDefault();
+        parentBlock = $(this).closest(".table_row_wrapp");
+        dropDownBlock = parentBlock.find(".table_row_dropdown");
+        if(dropDownBlock.is(":hidden")) {
+          dropDownBlock.slideDown(300);
+        } else {
+          dropDownBlock.slideUp(300);
+        }
+      }
+    });
+
+    // --------
+
+    $(".showTextModul").on("click", function(e) {
+      e.preventDefault();
+      $("#textareaFixed").addClass("visible");
+    });
+
+    $(".fixed_block .close_btn").on("click", function(e) {
+      e.preventDefault();
+      $(this).closest(".fixed_block").removeClass("visible");
     });
 
     // --------
@@ -160,7 +172,6 @@ $(document).ready(function() {
       $(this).closest(".dropdown_box").slideUp(300);
     });
 
-
     $("[data-textarea]").on("keydown", function() {
       textareaName = $(this).attr("data-textarea");
       countTextareaBox = $("[data-count-textarea = '"+textareaName+"']");
@@ -176,8 +187,30 @@ $(document).ready(function() {
       console.log(maxVal +"   "+ currentVal);
     });
 
-    $(".switchBtn").on("click", function() {
-      
+    // -------
+
+    $("[data-fixedblock-link]").on("click", function(e) {
+        e.preventDefault();
+        popupName = $(this).attr("data-fixedblock-link");
+        $("[data-fixedblock = '"+ popupName +"']").addClass("visible");
     });
+    $("[data-fixedblock-link] .close_btn").on("click", function(e) {
+        e.preventDefault();
+        $(this).closest(".fixed_block").removeClass("visible");
+    });
+    $(this).keydown(function(eventObject){
+        if (eventObject.which == 27 ) {
+            $("[data-fixedblock]").removeClass("visible");
+        }
+    });
+    $(document).mouseup(function (e){
+      hide_element = $("[data-fixedblock]")
+      if (!hide_element.is(e.target)
+          && hide_element.has(e.target).length === 0) {
+        hide_element.removeClass("visible");
+      }
+    });
+
+    // ------------
 
 });

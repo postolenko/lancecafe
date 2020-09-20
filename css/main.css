@@ -2473,13 +2473,49 @@ footer {
 
 .add_news_wrapp {
     margin: 20px 0;
-    padding: 25px 20px 10px 20px;
+    padding: 20px 20px 10px 20px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1);
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1);
     position: relative;
+}
+
+.add_news_tools_wrapp {
+
+}
+
+.add_news_tools {
+  display: flex;
+  display: -webkit-flex;
+  margin: 0 10px;
+}
+
+.add_news_tools li {
+  padding: 0 3px;
+  list-style: none;
+}
+
+.add_news_tools li img {
+  cursor: pointer;
+}
+
+.arrow_down_little {
+  display: inline-block;
+  vertical-align: top;
+  width: 5px;
+  height: 3px;
+  background-image: url(../images/textarea_tools/arrow_down_little.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.add_news_tools li .arrow_down_little {
+  margin-left: 3px;
+  position: relative;
+  top: 5px;
 }
 
 .textwrapp {
@@ -5002,6 +5038,51 @@ footer {
   border-bottom: 1px solid transparent;
 }
 
+.right_links {
+  text-align: right;
+}
+
+.link_4 {
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: normal;
+  color: #2a273c;
+  -webkit-transition-property: border;
+  -webkit-transition-duration: .3s;
+  -webkit-transition-timing-function: ease;
+
+  -moz-transition-property: border;
+  -moz-transition-duration: .3s;
+  -moz-transition-timing-function: ease;
+
+  -ms-transition-property: border;
+  -ms-transition-duration: .3s;
+  -ms-transition-timing-function: ease;
+
+  -o-transition-property: border;
+  -o-transition-duration: .3s;
+  -o-transition-timing-function: ease;
+
+  transition-property: border;
+  transition-duration: .3s;
+  transition-timing-function: ease;
+}
+
+.link_4:link,
+.link_4:visited {
+  border-bottom: 1px solid transparent;
+}
+
+.link_4:active,
+.link_4.active {
+  border-bottom: 1px solid #2a273c;
+}
+
+.link_4:hover {
+  border-bottom: 1px solid #2a273c;
+}
+
 .sidebar_box {
   margin: 12px 0;
   border-radius: 5px;
@@ -5662,3 +5743,61 @@ p.yellow_tab {
 }
 
 /*-- /Popup --*/
+
+.fixed_block {
+  padding-top: 20px;
+  -webkit-box-shadow: 0 -2px 5px 0 rgba(0,0,0,.2);
+  -moz-box-shadow: 0 -2px 5px 0 rgba(0,0,0,.2);
+  box-shadow: 0 -2px 5px 0 rgba(0,0,0,.2);
+  background: rgba(255, 255, 255, .9);
+  width: 100%;
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  -webkit-transition-property: bottom;
+  -webkit-transition-duration: .3s;
+  -webkit-transition-timing-function: ease;
+
+  -moz-transition-property: bottom;
+  -moz-transition-duration: .3s;
+  -moz-transition-timing-function: ease;
+
+  -ms-transition-property: bottom;
+  -ms-transition-duration: .3s;
+  -ms-transition-timing-function: ease;
+
+  -o-transition-property: bottom;
+  -o-transition-duration: .3s;
+  -o-transition-timing-function: ease;
+
+  transition-property: bottom;
+  transition-duration: .3s;
+  transition-timing-function: ease;
+}
+
+.fixed_block.visible {
+  bottom: 0;
+}
+
+.fixed_block .container {
+  position: relative;
+}
+
+.close_btn {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background-image: url(../images/close.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+}
+
+.fixed_block .container .close_btn {
+  position: absolute;
+  top: 0;
+  right: -10px;
+}
+
