@@ -206,7 +206,7 @@
   }
   .home-wrap-one-other-txt {
     max-width: inherit;
-    padding-top: 50px;
+    padding-top: 10px;
   }
   .home-wrap-one-input {
     margin-top: 15px;
@@ -395,6 +395,37 @@
   .reviews__text {
     max-height: 51px;
   }
+
+/*-- Resp Background --*/
+
+.resp_top_bg {
+  display: block;
+  height: 385px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.resp_top_bg .bg_resp_elem {
+  position: absolute;
+}
+
+.bg_resp_elem_1 {
+  bottom: 0;
+  left: 0;
+}
+
+.bg_resp_elem_2 {
+  top: -5px;
+  right: 0;
+}
+
+.bg_resp_elem_3 {
+  bottom: 0;
+  right: 0;
+}
+
+/*-- /Resp Background --*/
+
   /*-- Account Site --*/
   .table_4 h3 {
     font-size: 18px;
@@ -541,6 +572,26 @@
       font-weight: 600;
   }
   /*-- /Account Site --*/
+  /*-- Resp Background --*/
+  .resp_top_bg {
+    height: 330px;
+    margin-top: 20px;
+  }
+  .resp_top_bg .bg_resp_elem {
+    transform: scale(.7);
+    -webkit-transform: scale(.7);
+  }
+  .bg_resp_elem_1 {
+    left: -14%;
+  }
+  .bg_resp_elem_2 {
+    top: -12px;
+  }
+  .bg_resp_elem_3 {
+    bottom: 8px;
+    right: -2%;
+  }
+  /*-- /Resp Background --*/
 }
 @media only screen and (max-width: 767px) {
   .container {
@@ -806,6 +857,28 @@
     padding: 10px 0;
   }
   /*-- /Services Accaunt --*/
+  /*-- Resp Background --*/
+  .resp_top_bg {
+      height: 200px;
+      margin-top: 20px;
+  }
+  .resp_top_bg .bg_resp_elem {
+    transform: scale(.5);
+    -webkit-transform: scale(.5);
+  }
+  .bg_resp_elem_1 {
+    bottom: -77px;
+    left: -27%;
+  }
+  .bg_resp_elem_2 {
+    top: -32px;
+    right: -9%;
+  }
+  .bg_resp_elem_3 {
+    bottom: -62px;
+    right: -15%;
+  }
+  /*-- /Resp Background --*/
 }
 @media only screen and (max-width: 550px) {
   .home-wrap-one-other-txt h2 {
@@ -1024,6 +1097,55 @@
       margin: 20px -8px;
   }
   /*-- /Finance --*/
+  /*-- Resp Background --*/
+  .home-wrap-one-other {
+    margin: 0 -20px;
+  }
+  .resp_top_bg {
+      height: 170px;
+      margin-top: 15px;
+  }
+  .resp_top_bg .bg_resp_elem {
+      transform: scale(.4);
+      -webkit-transform: scale(.4);
+  }
+  .bg_resp_elem_1 {
+      bottom: -89px;
+      left: -180px;
+  }
+  .bg_resp_elem_2 {
+      top: -31px;
+      right: -56px;
+  }
+  .bg_resp_elem_3 {
+      bottom: -71px;
+      right: -94px;
+  }
+  .home-wrap-one-other {
+    padding-bottom: 51px;
+  }
+  .home-wrap-one-other-txt {
+    padding: 16px 15px 0 15px;
+    text-align: left;
+  }
+  .home-wrap-one-other-txt h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    margin-left: 0;
+  }
+  .home-wrap-one-other-txt h2 + p {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .home-wrap-one-other-link {
+    padding-top: 7px;
+  }
+  .home-wrap-one-other-link a {
+    width: 100% !important;
+    margin: 8px 0 !important;
+    border-radius: 8px !important;
+  }
+  /*-- /Resp Background --*/
 
 }
 @media only screen and (max-width: 370px) {

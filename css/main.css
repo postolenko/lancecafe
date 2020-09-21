@@ -197,6 +197,9 @@ header {
   position: relative;
   overflow: hidden;
 }
+.resp_top_bg {
+  display: none;
+}
 .home-wrap-one-other-txt h2 {
   font-size: 48px;
   text-transform: uppercase;
