@@ -1802,12 +1802,16 @@ footer {
   content: '';
   display: block;
   position: absolute;
-  top: -1px;
+  top: 1px;
   left: 1px;
   width: 15px;
   height: 15px;
   background: url("../images/checked.svg") no-repeat;
   background-size: cover;
+}
+.checkbox_2 input[type="checkbox"]:checked + label:after {
+  top: 50%;
+  margin-top: -9px;
 }
 .rating {
   position: relative;
@@ -3080,6 +3084,8 @@ footer {
   -webkit-flex-wrap: wrap;
   align-items: center;
   -webkit-align-items: center;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
   margin: 0 -15px;
 }
 
@@ -3140,6 +3146,15 @@ footer {
   background-color: rgb(255, 255, 255);
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1);
+}
+
+.dropdown_resp_wrapp {
+  display: none;
+  text-align: right;
+}
+
+.dropdown_resp_wrapp .drpdown_select {
+  max-width: 120px;
 }
 
 .table_3 {
@@ -3206,7 +3221,7 @@ footer {
 }
 
 .table_3 .table_row .cell:nth-child(2) {
-  width: 25%;
+  width: 23%;
 }
 
 .table_3 .table_row .cell:nth-child(3) {
@@ -3226,9 +3241,10 @@ footer {
 }
 
 .table_3 .table_row .cell:nth-child(7) {
-  width: 15%;
+  width: 17%;
   text-align: left;
   position: relative;
+  padding-right: 23px;
 }
 
 .table_3 .table_header .cell:nth-child(7) {
@@ -3240,6 +3256,14 @@ footer {
   color: rgb(0, 0, 0);
   line-height: 1.2;
   font-weight: 500;
+}
+
+.table_3 .table_row h3 {
+  display: none;
+}
+
+.table_3 .table_header h3 {
+  display: block;
 }
 
 .table_3 p {
@@ -3256,6 +3280,7 @@ footer {
 .drpdown_select_title {
   cursor: pointer;
   position: relative;
+  padding-right: 15px;
 }
 
 .drpdown_select_title:after {
@@ -3269,7 +3294,7 @@ footer {
   content: "";
   position: absolute;
   top: 8px;
-  right: 10px;
+  right: 0;
 }
 
 .drpdown_select_title h3 {
@@ -3402,19 +3427,19 @@ footer {
   margin: 0 -10px;
 }
 
-.tree_cols .col {
+.tree_cols .tree_cols_col {
   padding: 10px 10px;
 }
 
-.tree_cols .col:nth-child(1) {
+.tree_cols .tree_cols_col:nth-child(1) {
   width: 27%;
 }
 
-.tree_cols .col:nth-child(2) {
+.tree_cols .tree_cols_col:nth-child(2) {
   width: 27%;
 }
 
-.tree_cols .col:nth-child(3) {
+.tree_cols .tree_cols_col:nth-child(3) {
   width: 46%;
 }
 
@@ -3440,6 +3465,10 @@ footer {
 
 .form_box .submit_wrapp_3 .btn_4 {
   margin: 10px 0;
+}
+
+.submit_wrapp_3 .btn {
+  min-width: 100%;
 }
 
 .btn_4 {
@@ -3583,13 +3612,13 @@ footer {
   padding: 20px 0 20px;
 }
 
-.two_cols .col:nth-child(1) {
+.two_cols .two_cols_col:nth-child(1) {
   width: 50%;
   max-width: 550px;
   padding-right: 10px;
 }
 
-.two_cols .col:nth-child(2) {
+.two_cols .two_cols_col:nth-child(2) {
   width: 50%;
   max-width: 455px;
 }
@@ -3852,7 +3881,7 @@ footer {
   height: 150px;
   display: block;
   width: 100%;
-  padding: 0 40px;
+  padding: 6px 40px;
   border: 1px solid transparent;
   border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -3867,8 +3896,15 @@ footer {
   resize: none;
 }
 
-.nw_input input::placeholder,
 .nw_input_wrapp textarea::placeholder {
+  font-family: 'Gotham Pro';
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  color: #a1a1a1;
+}
+
+.nw_input input::placeholder {
   font-family: 'Gotham Pro';
   font-weight: normal;
   font-size: 14px;
@@ -3915,11 +3951,13 @@ footer {
 .input_inline {
   display: flex;
   display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
   margin: 0 -15px;
 }
 
 .input_inline > div {
-  padding: 0 15px;
+  padding: 5px 15px;
 }
 
 .nw_input_2 input::placeholder,
@@ -4082,6 +4120,7 @@ footer {
 
 .checkbox_2 label {
   font-size: 18px;
+  text-align: left;
 }
 
 .checkbox_2 label span {
@@ -4222,6 +4261,14 @@ footer {
   color: rgb(0, 0, 0);
   line-height: 1.2;
   font-weight: normal;
+}
+
+.table_4 .table_row.table_header h3 {
+  display: block;
+}
+
+.table_4 .table_row h3 {
+  display: none;
 }
 
 /*-- /Accout Site --*/
@@ -4489,12 +4536,14 @@ footer {
   margin-bottom: 10px;
 }
 
-.two_cols_2 .col:nth-child(1) {
+.two_cols_2_col:nth-child(1) {
+  width: 50%;
   max-width: 310px;
   padding: 10px 10px 10px 0;
 }
 
-.two_cols_2 .col:nth-child(2) {
+.two_cols_2_col:nth-child(2) {
+  width: 50%;
   max-width: 505px;
   padding: 10px 0 10px 10px;
 }
@@ -4520,7 +4569,7 @@ footer {
   display: block;
   width: 100%;
   height: 145px;
-  padding: 1px 10px;
+  padding: 7px 10px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
   border: none;
@@ -4535,14 +4584,22 @@ footer {
   outline: none;
 }
 
-.input_wrapp input::placeholder,
-.input_wrapp textarea::placeholder {
+.input_wrapp input::placeholder {
   font-family: 'Gotham Pro';
   font-size: 14px;
   line-height: 34px;
   font-weight: normal;
   color: #a1a1a1;
 }
+
+.input_wrapp textarea::placeholder {
+  font-family: 'Gotham Pro';
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: normal;
+  color: #a1a1a1;
+}
+
 
 /*-- /Services Accaunt --*/
 
@@ -4675,7 +4732,7 @@ footer {
 }
 
 .dropdown_box_wrapp_2.transparent .dropdown_box_2 {
-  min-width: 260px;
+  min-width: 240px;
   padding: 6px 25px 10px 25px;
 }
 
@@ -4700,7 +4757,7 @@ footer {
 
 .theme_item .col_2:nth-child(2) {
   width: calc(100% - 135px);
-  padding: 0 20px 0 20px;
+  padding: 0 20px 10px 20px;
 }
 
 .theme_item_header {
@@ -5094,6 +5151,8 @@ footer {
 
 .sidebar_box {
   margin: 12px 0;
+  width: 100%;
+  max-width: 275px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   background-color: rgb(255, 255, 255);
@@ -5301,7 +5360,7 @@ p.yellow_tab {
 }
 
 .vacansie_templ > .right .inner_col {
-  padding: 0 35px;
+  padding: 0 35px 20px 35px;
 }
 
 .vacansie_header {
@@ -5810,10 +5869,6 @@ p.yellow_tab {
   font-weight: 500;
 }
 
-.payments {
-
-}
-
 .payments_title {
   padding: 17px 0;
   text-align: center;
@@ -5825,13 +5880,10 @@ p.yellow_tab {
   font-weight: normal;
 }
 
-.payments_thumbs {
-
-}
-
 .payments_thumbs img {
   display: block;
   margin: 17px auto;
+  max-width: 100%;
 }
 
 /*-- Popup --*/
@@ -5932,5 +5984,6 @@ body.fixed {
   position: absolute;
   top: 0;
   right: -10px;
+  z-index: 3;
 }
 

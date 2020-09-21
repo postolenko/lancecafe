@@ -395,6 +395,24 @@
   .reviews__text {
     max-height: 51px;
   }
+  /*-- Account Site --*/
+  .table_4 h3 {
+    font-size: 18px;
+  }
+  .table_4 p {
+    font-size: 14px;
+  }
+  /*-- /Account Site --*/
+  /*-- Section 1 - Vacansie Page --*/
+  .vacansie_templ > .left {
+      width: 100%;
+      padding: 5px 0;
+  }
+  .vacansie_templ > .right {
+      width: 100%;
+      padding: 5px 0;
+  }
+  /*-- /Section 1 - Vacansie Page --*/
 }
 @media only screen and (max-width: 991px) {
   .container {
@@ -517,6 +535,12 @@
   .reviews {
     width: calc(50% - 13px);
   }
+  /*-- Account Site --*/
+  .table_4 h3 {
+      font-size: 14px;
+      font-weight: 600;
+  }
+  /*-- /Account Site --*/
 }
 @media only screen and (max-width: 767px) {
   .container {
@@ -695,6 +719,93 @@
   .reviews__text {
     max-height: 68px;
   }
+  /*-- Account Site --*/
+  .table_4 .table_row {
+      padding: 9px 10px;
+  }
+  .table_4 .table_row.table_header {
+    display: none;
+  }
+  .table_4 .table_row h3 {
+    display: block;
+    font-size: 12px;
+  }
+  .table_4 .table_row {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+    padding: 9px 10px;
+  }
+  .table_4 p {
+    font-size: 12px;
+  }
+  .table_4 .table_row .cell {
+    padding: 5px;
+  }
+  .table_4 .table_row .cell:nth-child(1) {
+      width: 33.33%;
+  }
+  .table_4 .table_row .cell:nth-child(2) {
+      width: 40%;
+  }
+  .table_4 .table_row .cell:nth-child(3) {
+      width: 26%;
+  }
+  .table_4 .table_row .cell:nth-child(4) {
+      width: 33.33%;
+  }
+  .table_4 .table_row .cell:nth-child(5) {
+      width: 66.66%;
+  }
+  /*-- /Account Site --*/
+  /*-- Notifictions --*/
+  .title_3 h2 {
+      font-size: 25px;
+  }
+  .title_3 {
+      padding: 20px 0 20px 0;
+  }
+  .inner_box {
+      padding-left: 0;
+  }
+  /*-- /Notifictions --*/
+  /*-- Delete Accaunt --*/
+  .title_4 h2 {
+      font-size: 24px;
+  }
+  .article_2 p {
+      font-size: 16px;
+  }
+  .article_2 ul > li {
+      font-size: 16px;
+  }
+  .article_2 ul > li ul li {
+      font-size: 16px;
+  }
+  .submit_wrapp_5 {
+      padding: 10px 0;
+  }
+  .article_2 p a {
+      font-size: 16px;
+  }
+  /*-- /Delete Accaunt --*/
+  /*-- Services Accaunt --*/
+  .two_cols_2 {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+  }
+  .two_cols_2_col:nth-child(1) {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 0;
+  }
+  .two_cols_2_col:nth-child(2) {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 0;
+  }
+  /*-- /Services Accaunt --*/
 }
 @media only screen and (max-width: 550px) {
   .home-wrap-one-other-txt h2 {
@@ -875,6 +986,45 @@
   .reviews-section__top-line {
     flex-wrap: wrap;
   }
+  /*-- Accout Site --*/
+  .table_4 .table_row .cell:nth-child(1) {
+      width: 50%;
+  }
+  .table_4 .table_row .cell:nth-child(2) {
+      width: 50%;
+  }
+  .table_4 .table_row .cell:nth-child(3) {
+      width: 50%;
+  }
+  .table_4 .table_row .cell:nth-child(4) {
+      width: 50%;
+  }
+  .table_4 .table_row .cell:nth-child(5) {
+      width: 100%;
+  }
+  /*-- /Accout Site --*/
+  /*-- Services Accaunt --*/
+  .header_inline {
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      margin: 10px 0;
+  }
+  /*-- /Services Accaunt --*/
+  /*-- Finance --*/
+  .yellow_box {
+      padding: 8px 20px 13px 20px;
+  }
+  .table_6_wrapp h3 {
+      font-size: 15px;
+  }
+  .table_6 p {
+      font-size: 14px;
+  }
+  .buttons_inline {
+      margin: 20px -8px;
+  }
+  /*-- /Finance --*/
+
 }
 @media only screen and (max-width: 370px) {
   .all-freelance-developer__card-second-columns {
@@ -934,6 +1084,19 @@
   }
 }
 /*# sourceMappingURL=media.css.map */
+@media only screen and (max-width: 1200px) {
+/*-- Deals --*/
+.deals_header {
+  display: block;
+}
+.deals_header .col_1 {
+    width: 100%;
+}
+.deals_header .col_2 {
+    width: 100%;
+}
+/*-- /Deals --*/
+}
 @media only screen and (max-width: 990px) {
   /*-- Section 1 - Vacansies Page --*/
   .vacansie_thumb {
@@ -945,6 +1108,134 @@
       font-size: 17px;
   }
   /*-- /Safe --*/
+  /*-- Settings --*/
+  .tree_cols .tree_cols_col:nth-child(1) {
+    width: 50%;
+  }
+  .tree_cols .tree_cols_col:nth-child(2) {
+    width: 50%;
+    padding-right: 0;
+  }
+  .tree_cols .tree_cols_col:nth-child(3) {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .col_ttile h2 {
+      font-size: 21px;
+      line-height: 27px;
+  }
+  .two_cols {
+    display: block;
+  }
+  .two_cols .two_cols_col:nth-child(1) {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 0;
+  }
+  .two_cols .two_cols_col:nth-child(2) {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 0;
+  }
+  .input_wrapp_5_2 > div:nth-child(1) {
+      width: 205px;
+  }
+  .submit_wrapp_4 {
+      padding: 10px 0 15px;
+  }
+  /*-- /Settings --*/
+  /*-- Deals --*/
+
+  .blue_title_2 {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+  }
+
+  .blue_title_2 > div:nth-child(1) {
+    width: calc(100% - 120px);
+  }
+
+  .dropdown_resp_wrapp {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    width: 120px;
+  }
+  .drpdown_select_title h3 {
+      font-size: 15px;
+  }
+  .drpdown_select_title:after {
+      top: 6px;
+  }
+  .deals_header .col_2 {
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+  }
+  .table_3 .table_row .cell {
+      padding: 10px 5px;
+  }
+  .table_3 .table_header {
+      display: none;
+  }
+  .table_3 .table_row h3 {
+      display: block;
+      font-size: 14px;
+  }
+  .table_3 .table_row {
+      align-items: flex-start;
+      -webkit-align-items: flex-start;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+  }
+  .table_3 .table_row .cell:nth-child(1) {
+      width: 30px;
+      padding-left: 10px;
+  }
+  .table_3 .table_row .cell:nth-child(2) {
+      width: calc(33.33% - 30px);
+  }
+  .table_3 .table_row .cell:nth-child(3) {
+      width: 33.33%;
+  }
+  .table_3 .table_row .cell:nth-child(4) {
+      width: 33.33%;
+  }
+  .table_3 .table_row .cell:nth-child(5) {
+      width: calc(33.33% - 30px);
+      margin-left: 30px;
+  }
+  .table_3 .table_row .cell:nth-child(6) {
+      width: 33.33%;
+  }
+  .table_3 .table_row .cell:nth-child(7) {
+      width: 33.33%;
+  }
+  /*-- /Deals --*/
+  /*-- Section - Forum 2 Page --*/
+  .two_cols_templ {
+    display: block;
+  }
+  .two_cols_templ .left,
+  .two_cols_templ .right {
+    float: none;
+    width: 100%;
+    padding: 10px 0;
+  }
+  .two_cols_templ .right {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+  }
+  .sidebar_box {
+    margin: 12px;
+  }
+  /*-- /Section - Forum 2 Page --*/
 }
 
 @media only screen and (max-width: 767px) {
@@ -1008,6 +1299,78 @@
       padding: 0 15px;
   }
   /*-- /Section 1 - Configuration Page --*/
+  /*-- Section 1 - New Project --*/
+  .deals_header h2 {
+    padding-bottom: 10px;
+    font-size: 25px;
+  }
+  .nw_input input {
+    padding: 0 10px;
+  }
+  .nw_input_wrapp textarea {
+    padding: 6px 10px;
+  }
+  /*-- /Section 1 - New Project --*/
+  /*-- Account Site --*/
+  .add_money_wrapp {
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+  }
+  /*-- /Account Site --*/
+  /*-- Section 1 - Forum Page --*/
+  .blue_title_3 {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+  }
+  .blue_title_3 .col_1 {
+      width: 100%;
+  }
+  .blue_title_3 .col_2 {
+      width: 100%;
+  }
+  /*-- /Section 1 - Forum Page --*/
+  /*-- Section - Forum 2 Page --*/
+  .sidebar_box {
+    width: 100%;
+    max-width: 100%;
+  }
+  .table_7 .table_row {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    padding: 8px 10px;
+  }
+  .table_7 .table_row .cell {
+    padding: 5px 10px;
+  }
+  .table_7 .table_row .cell:nth-child(2) {
+      width: calc(100% - 60px);
+  }
+  .table_7 .table_row .cell:nth-child(3) {
+      width: 70px;
+      margin-left: 60px;
+  }
+  .table_7 .table_row .cell:nth-child(4) {
+      width: calc(40% - 60px);
+  }
+  .table_7 .table_row .cell:nth-child(5) {
+      width: calc(60% - 70px);
+  }
+  .fixed_block .container .close_btn {
+      right: 10px;
+  }
+  /*-- /Section - Forum 2 Page --*/
+  /*-- Section 1 - Vacansie Page --*/
+  .vacansie_descript p {
+      padding-bottom: 13px;
+      font-size: 16px;
+  }
+  .vacansie_templ .inner_col {
+    padding: 0 20px;
+  }
+  .vacansie_templ > .right .inner_col {
+      padding: 0 20px 20px 20px;
+  }
+  /*-- /Section 1 - Vacansie Page --*/
 }
 
 @media only screen and (max-width: 600px) {
@@ -1028,6 +1391,100 @@
       text-align: right;
   }
   /*-- /Section 1 - Arbitrag Page --*/
+  /*-- Settings --*/
+  .tree_cols .tree_cols_col:nth-child(1) {
+    width: 100%;
+    padding: 0;
+  }
+  .tree_cols .tree_cols_col:nth-child(2) {
+    width: 100%;
+    padding: 0;
+  }
+  .col_ttile h2 {
+      font-size: 21px;
+      line-height: 27px;
+  }
+  .input_wrapp_5 {
+    display: block;
+    margin: 15px 0;
+  }
+  .input_wrapp_5 > div:nth-child(2) {
+      width: 100%;
+  }
+  .input_wrapp_5 p {
+      padding: 4px 0;
+      font-size: 16px;
+  }
+  .two_cols {
+      padding: 0;
+  }
+  .two_cols .input_wrapp input {
+    max-width: 100%;
+  }
+  .two_cols .dropdown_box_title_2 {
+    max-width: 100%;
+  }
+  .two_cols .dropdown_box_wrapp_2 {
+    max-width: 100%;
+  }
+  /*-- /Settings --*/
+  /*-- Deals --*/
+  .blue_title_2 > div:nth-child(1) {
+    width: 100%;
+  }
+  .dropdown_resp_wrapp {
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    width: 100%;
+    padding-top: 10px;
+  }
+  /*--/ Deals --*/
+  /*-- Section 1 - New Project --*/
+  .line-for-links__link {
+      padding: 0 12px;
+  }
+  .nw_input_wrapp h2 {
+      font-size: 19px;
+  }
+  .nw_input_wrapp_2 h2 {
+      font-size: 19px;
+  }
+  /*-- .Section 1 - New Project --*/
+  /*-- Section 1 - Forum Page --*/
+  .theme_item .col_1:nth-child(1) {
+      width: 100px;
+  }
+  .theme_item .col_2:nth-child(2) {
+      width: calc(100% - 100px);
+  }
+  .theme_item_descript p {
+      font-size: 12px;
+  }
+  /*-- /Section 1 - Forum Page --*/
+  /*-- Section 1 - Vacansie Page --*/
+  .vacansie_form_two_cols > div:nth-child(1),
+  .vacansie_form_two_cols > div:nth-child(2) {
+      width: 100%;
+      padding: 4px 0;
+  }
+  .vacansie_form_two_cols .input_wrapp input {
+    max-width: 100%;
+  }
+  .vacansie_form_two_cols .dropdown_box_wrapp_2 {
+      max-width: 100%;
+  }
+  .vacansie_form_two_cols .dropdown_box_title_2 {
+      max-width: 100%;
+  }
+  /*-- /Section 1 - Vacansie Page --*/
+  /*-- Section 1 - News Page --*/
+  .modal_title {
+    padding: 10px 0;
+  }
+  .modal_title h2 {
+      font-size: 30px;
+  }
+  /*-- /Section 1 - News Page --*/
 }
 
 @media only screen and (max-width: 480px) {
@@ -1142,7 +1599,6 @@
   .table_2 .table_row .cell {
     padding: 5px;
   }
-
   .table_2 .table_row .cell:nth-child(1) {
       width: calc(70% - 55px);
   }
@@ -1164,6 +1620,172 @@
       text-align: center;
   }
   /*-- /Section 1 - Configuration Page --*/
+  /*-- Deals --*/
+  .table_3 .table_row .cell:nth-child(1) {
+      width: 30px;
+      padding-left: 10px;
+  }
+  .table_3 .table_row .cell:nth-child(2) {
+      width: calc(50% - 30px);
+  }
+  .table_3 .table_row .cell:nth-child(3) {
+      width: 50%;
+  }
+  .table_3 .table_row .cell:nth-child(4) {
+      width: calc(50% - 30px);
+      margin-left: 30px;
+  }
+  .table_3 .table_row .cell:nth-child(5) {
+      width: calc(33.33% - 30px);
+      margin-left: 0;
+  }
+  .table_3 .table_row .cell:nth-child(6) {
+      width: calc(50% - 30px);
+      margin-left: 30px;
+  }
+  .table_3 .table_row .cell:nth-child(7) {
+      width: 50%;
+  }
+  /*-- /Deals --*/
+  /*-- Section 1 - Forum Page --*/
+  .theme_item_header {
+    display: block;
+    position: relative;
+  }
+  .theme_item {
+    position: relative;
+  }
+  .theme_item .col_1:nth-child(1) {
+      width: 100px;
+      padding: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  .theme_item .col_2:nth-child(2) {
+      width: 100%;
+      padding: 5px 15px 5px 10px;    
+  }
+  .theme_item_header > div:nth-child(2) {
+      width: 100%;
+      padding: 5px 0;
+      text-align: right;
+  }
+  .theme_item_header > div:nth-child(1) {
+      width: 100%;
+      padding: 5px 0;
+      text-align: right;
+  }
+  .theme_item_header > div:nth-child(2) p,
+  .theme_item_header > div:nth-child(1) p {
+    width: 100%;
+  }
+  .user_box .photo_box {
+    width: 70px;
+    height: 70px;
+    margin: 2px auto;
+  }
+  .theme_item {
+      display: block;
+  }
+  .user_box {
+    min-height: 120px;
+    padding: 5px 0 14px 0;
+  }
+  .theme_item_content {
+    width: 100%;
+    padding: 40px 0 10px 0;
+  }
+  /*-- /Section 1 - Forum Page --*/
+  /*-- Section - Forum 2 Page --*/
+  .sidebar_box_header h3 {
+      font-size: 20px;
+  }
+  /*-- /Section - Forum 2 Page --*/
+  /*-- Section - Forum 2 Page --*/
+  .table_7 .table_row .cell:nth-child(1) {
+      width: 100%;
+  }
+  .table_7 .table_row .cell:nth-child(2) {
+      width: 100%;
+  }
+  .table_7 .table_row .cell:nth-child(3) {
+      width: 50%;
+      margin-left: 0;
+  }
+  .table_7 .table_row .cell:nth-child(4) {
+      width: 50%
+  }
+  .table_7 .table_row .cell:nth-child(5) {
+      width: 100%;
+  }
+  /*-- /Section - Forum 2 Page --*/
+  /*-- Section 1 - Vacansie Page --*/
+  .vacansie_header {
+    position: relative;
+  }
+  .vacansie_header > div:nth-child(1) {
+      width: 100%;
+      position: relative;
+      z-index: 2;
+  }
+  .vacansie_header > div:nth-child(2) {
+      width: 160px;
+      opacity: .2;
+      position: absolute;
+      top: 10px;
+      right: 0;
+  }
+  /*-- /Section 1 - Vacansie Page --*/
+  /*-- Section 1 - Modals --*/
+  .modal {
+      min-height: auto;
+  }
+  .modal_1 {
+      padding: 20px 20px 16px 20px;
+  }
+  .two_inputs {
+    margin: 3px 0;
+  }
+  .two_inputs .input_wrapp {
+      width: 100%;
+      margin: 3px 0;
+  }
+  .grey_link_wrapp {
+    padding-top: 10px;
+  }
+  .modal_form_wrapp_2 {
+      margin: 23px 0;
+  }
+  .modal_title h2 {
+      font-size: 25px;
+  }
+  .two_inputs .dropdown_box_wrapp_2 {
+      width: 100%;
+      margin: 3px 0;
+  }
+  .two_inputs .dropdown_box_wrapp_2 {
+      max-width: 100%;
+  }
+  .two_inputs .dropdown_box_title_2 {
+      max-width: 100%;
+  }
+  .inner_box_2 {
+      padding: 0;
+  }
+  .payments_title h3 {
+      font-size: 16px;
+  }
+  .total_price p {
+      font-size: 15px;
+  }
+  .payments_title {
+      padding: 10px 0;
+  }
+  .modal .checkbox_2 label {
+      font-size: 16px;
+  }
+  /*-- /Section 1 - Modals --*/
 }
 @media only screen and (max-width: 370px) {
   /*-- Section 1 - Arbitrag Page --*/
