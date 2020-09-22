@@ -1887,16 +1887,16 @@
     position: relative;
   }
   .vacansie_header > div:nth-child(1) {
-      width: 100%;
-      position: relative;
-      z-index: 2;
+      padding-top: 10px;
+  }
+  .vacansie_header > div:nth-child(1) {
+      width: 160px;
+      margin: 0 auto 10px auto;
+      order: 1;
   }
   .vacansie_header > div:nth-child(2) {
-      width: 160px;
-      opacity: .2;
-      position: absolute;
-      top: 10px;
-      right: 0;
+      width: 100%;
+      order: 2;
   }
   /*-- /Section 1 - Vacansie Page --*/
   /*-- Section 1 - Modals --*/
@@ -1960,4 +1960,10 @@
       font-size: 11px;
   }
   /*-- /Safe --*/
+  /*-- Popup --*/
+  .modal.modal_4 .close_btn {
+    top: 10px;
+    right: 10px;
+  }
+  /*-- /Popup --*/
 }
