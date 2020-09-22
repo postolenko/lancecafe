@@ -1062,10 +1062,17 @@ footer {
   }
 }*/
 .chat-item {
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
   position: fixed;
   right: 15px;
   bottom: 15px;
 }
+.chat_resp {
+  display: none;
+}
+
 .header-navig-menu li a:hover {
   color: #fcc836;
 }
