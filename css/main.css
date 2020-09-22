@@ -2044,10 +2044,6 @@ footer {
   color: #2a273c;
 }
 
-.contacts_wrapp .btn_2 {
-
-}
-
 .btn_wrapp {
   padding: 25px 0 25px 0;
   text-align: center;
@@ -2069,10 +2065,6 @@ footer {
 /*-- /Section 1 - News Page --*/
 
 /*-- Section 1 - Arbitrag Page --*/
-
-.subpage-title_2 {
-
-}
 
 .subpage-title_2 h4 {
   text-transform: uppercase;
@@ -2133,10 +2125,6 @@ footer {
   padding-right: 10px;
 }
 
-.user_thumb_big > div:nth-child(2) {
-
-}
-
 .user_thumb_big .user_img {
   width: 110px;
   height: 110px;
@@ -2162,10 +2150,6 @@ footer {
   color: rgb(42, 39, 60);
   line-height: 1.2;
   font-weight: normal;
-}
-
-.user_thumb p {
-  
 }
 
 .red {
@@ -2211,10 +2195,6 @@ footer {
   color: #2a273c;
 }
 
-.project_descript_wrapp {
-
-}
-
 .project_descript {
   padding: 21px 0;
 }
@@ -2231,10 +2211,6 @@ footer {
     padding: 16px 0;
 }
 
-.file_link {
-
-}
-
 .file {
   display: inline-block;
   vertical-align: top;
@@ -2244,7 +2220,6 @@ footer {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-
 }
 
 .file_link span {
@@ -2376,10 +2351,6 @@ footer {
   width: 80px;
 }
 
-.user_thmb_2 > div:nth-child(2) {
-
-}
-
 .user_photo_2 {
   width: 70px;
   height: 70px;
@@ -2426,10 +2397,6 @@ footer {
   font-size: 14px;
   line-height: 18px;
   color: #2a273c;
-}
-
-.author_thumb_wrapp {
-
 }
 
 .author_thumb {
@@ -2678,10 +2645,6 @@ footer {
   line-height: 1.2;
 }
 
-.soc_ch_wrapp {
-
-}
-
 .soc_ch_title {
   padding: 10px 0 10px 0;
 }
@@ -2764,22 +2727,6 @@ footer {
   transform: translate(-50%, -50%);
 }
 
-.soc_ch_wrapp {
-
-}
-
-.soc_ch_title {
-
-}
-
-.soc_ch_title h4 {
-
-}
-
-.form_inner {
-
-}
-
 .input_wrapp_2 {
   max-width: 300px;
   margin: 4px auto;
@@ -2804,10 +2751,6 @@ footer {
 .submit_wrapp {
   padding: 17px 0;
   text-align: center;
-}
-
-.submit_wrapp .btn_2 {
-
 }
 
 .table {
@@ -2926,10 +2869,6 @@ footer {
     padding: 11px 0 10px 0;
 }
 
-.conf p {
-
-}
-
 .conf .input_wrapp {
   margin-top: 10px;
 }
@@ -2949,16 +2888,8 @@ footer {
   border-radius: 30px 30px 5px 5px;
 }
 
-.blue_title_2 {
-
-}
-
 .blue_title_2 h2 {
   text-align: left;
-}
-
-.table_2 {
-
 }
 
 .table_2 .table_row {
@@ -3101,10 +3032,6 @@ footer {
   padding: 5px 15px;
 }
 
-.add_money_wrapp > div {
-
-}
-
 .add_money_descript {
   padding: 2px 30px 5px 30px;
   border-radius: 5px;
@@ -3163,10 +3090,6 @@ footer {
 
 .dropdown_resp_wrapp .drpdown_select {
   max-width: 120px;
-}
-
-.table_3 {
-
 }
 
 .table_row_wrapp {
@@ -3329,10 +3252,6 @@ footer {
   z-index: 3;
 }
 
-.drpdown_select_list ul {
-
-}
-
 .drpdown_select_list ul li {
   padding: 1px 0;
   text-align: left;
@@ -3379,7 +3298,6 @@ footer {
   color: #000;
 }
 
-
 .file_3 {
   display: inline-block;
   vertical-align: top;
@@ -3422,7 +3340,6 @@ footer {
 }
 
 /*-- /Deals --*/
-
 
 /*-- Settings --*/
 
@@ -3569,10 +3486,6 @@ footer {
   background-image: url(../images/soc_img_2/soc_06_2.png);
   background-size: contain;
   background-repeat: no-repeat;
-}
-
-.incl {
-
 }
 
 .incl .green {
@@ -3864,10 +3777,6 @@ footer {
   line-height: 1.2;
 }
 
-.nw_input {
-
-}
-
 .nw_input input {
   display: block;
   width: 100%;
@@ -4066,24 +3975,12 @@ footer {
   padding: 9px 20px 10px 40px;
 }
 
-.text_box {
-
-}
-
-.count_text_box {
-
-}
-
 .count_text_box p {
   font-size: 12px;
   color: rgba(42, 39, 60, 0.502);
   line-height: 1.2;
   font-weight: normal;
   text-align: right;
-}
-
-.textarea_wrapp {
-
 }
 
 .textarea_wrapp textarea {
@@ -4310,16 +4207,8 @@ footer {
     padding-bottom: 5px;
 }
 
-.ch_wrapp {
-
-}
-
 .ch_wrapp > div {
   padding: 4px 0;
-}
-
-.link_wrapp {
-
 }
 
 .link_2 {
@@ -4382,10 +4271,6 @@ footer {
   font-weight: normal;
 }
 
-.article_2 {
-
-}
-
 .article_2 p {
   padding: 23px 0;
   font-size: 18px;
@@ -4430,10 +4315,6 @@ footer {
 
 .article_2 p a:hover {
   border-bottom: 1px solid transparent;
-}
-
-.article_2 ul {
-
 }
 
 .article_2 ul > li {
@@ -5219,10 +5100,6 @@ footer {
   padding-bottom: 10px;
 }
 
-.keys_words p {
-
-}
-
 .keys_words p a {
   border-bottom: 1px solid transparent;
   font-size: 12px;
@@ -5472,10 +5349,6 @@ p.yellow_tab {
 
 .vacansie_form_two_cols .upload_file_wrapp {
   padding: 6px 0;
-}
-
-.textarea_wrapp_2 {
-
 }
 
 .textarea_wrapp_2 textarea {
