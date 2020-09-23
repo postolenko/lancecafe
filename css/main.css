@@ -791,6 +791,7 @@ header {
   padding-top: 3px;
 }
 .top-home-project-name {
+  display: inline-flex;
   padding-top: 14px;
   padding-left: 19px;
   padding-bottom: 8px;
