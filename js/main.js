@@ -172,16 +172,8 @@ $(document).ready(function() {
     $("[data-textarea]").on("keydown", function() {
       textareaName = $(this).attr("data-textarea");
       countTextareaBox = $("[data-count-textarea = '"+textareaName+"']");
-      maxVal = parseInt( countTextareaBox.find("[data-count-num]").attr("data-count-num") );
       currentVal = $(this).val().length;
-      str = $(this).val();
-      console.log(str);
-      if(currentVal > maxVal) {
-        str.slice(0, -1);
-        $(this).val(str);
-      }
       countTextareaBox.find(".countSimbols").html(currentVal);
-      console.log(maxVal +"   "+ currentVal);
     });
 
     // -------
@@ -277,5 +269,10 @@ $(document).ready(function() {
         }
       }
     });
+
+    // ---------
+    if($(".date_input").length) {
+      $(".date_input").mask("99.99.9999");
+    }   
 
 });
