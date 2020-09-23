@@ -393,6 +393,70 @@
     max-height: 51px;
   }
 
+  .chat-item:after {
+    display: none;
+  }
+
+  .chat_resp {
+    animation: animate_shake 2s infinite ease;
+    animation-delay: 5s;
+  }
+
+  @keyframes animate_shake {
+      0% {
+          transform: rotate(0);
+      }
+      33% {
+          transform: rotate(-20deg);
+      }
+      66% {
+          transform: rotate(20deg);
+      }
+      90% {
+          transform: rotate(0);
+      }
+      100% {
+          transform: rotate(0);
+      }
+  }
+
+  .chat_resp:after {
+      display: block;
+      width: 30px;
+      height: 30px;
+      content: "";
+      border: 1px solid #fcc836;
+      animation: animate_after 2s infinite ease;
+      animation-delay: 5s;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+  }
+
+  @keyframes animate_after {
+      0% {
+          width: 30px;
+          height: 30px;
+          opacity: 0;
+      }
+      33% {
+          opacity: 1;
+      }
+      66% {
+          opacity: 1;
+      }
+      100% {
+          width: 90px;
+          height: 90px;
+          opacity: 0;
+      }
+  }
+
 /*-- Resp Background --*/
 
 .resp_top_bg {
