@@ -1,4 +1,9 @@
 # http://postolenko.github.io/lancecafe/index.html
+# http://postolenko.github.io/lancecafe/freelance.html
+# http://postolenko.github.io/lancecafe/specialization.html
+# http://postolenko.github.io/lancecafe/reviews.html
+# http://postolenko.github.io/lancecafe/works.html
+# http://postolenko.github.io/lancecafe/profile.html
 # http://postolenko.github.io/lancecafe/vacansies.html
 # http://postolenko.github.io/lancecafe/contacts.html
 # http://postolenko.github.io/lancecafe/news.html
