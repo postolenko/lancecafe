@@ -1057,6 +1057,7 @@ footer {
   position: fixed;
   right: 15px;
   bottom: 15px;
+  z-index: 3;
 }
 
 .chat-item:after {
